@@ -15,9 +15,10 @@ header{
     display: flex;
     align-items: center;
     color: white;
-    height: 50px;
+    height: 30px;
     font-size: 30px;
     text-decoration: none;
+    padding: 30px;
 }
 
 nav {
@@ -34,8 +35,9 @@ nav {
 
 .bio {
     margin: auto;
-    width: 40%;
+    width: 70%;
     padding: 10px;
+    font-size: large;
 }
 
 .dogs-adopt {
@@ -83,14 +85,40 @@ nav {
 
 .nav-box {
     display: flex;
-    padding: 5px;
-    margin: 0px;
+    padding: 1px;
+    justify-content: flex-end;
 }
 
 .nav-box a {
-    padding: 5px;
+    padding: 10px;
     margin: 0;
     display: flex;
     color: white;
     text-decoration: none;
+    font-size: medium;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.footerlink {
+
+}
+
+.footerlink img {
+}
+
+.container {
+    margin:30px;
+}
+
+.italics {
+    font-style: italic;
+    display: block;
+    font-size: small;
 }
