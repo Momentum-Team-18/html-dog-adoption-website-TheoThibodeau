@@ -3,8 +3,10 @@
 body {
     margin: 0 auto;
     box-sizing: content-box;
-    font-family: Open sans;font-size: 12px;
+    font-family: Open sans;
+    font-size: 12px;
     font: weight 500px;
+    font-family: Open Sans;
 }
 
 header{
@@ -40,6 +42,16 @@ nav {
     font-size: large;
 }
 
+.adoptbio {
+    margin: 30px;
+    font-size: small;
+}
+
+.adoptbio-title {
+    font-size: large;
+    font-weight: bold;
+}
+
 .dogs-adopt {
     display: flex;
     flex-direction: row;
@@ -64,22 +76,23 @@ nav {
 
 .blurb {
     display: flex;
-    align-items: flex-start;
     flex-direction: row;
+    display: inline;
+    height: 10px;
+    margin: 5px;
     flex-wrap: wrap;
-    display: inline-block;
 }
 
 .content {
-    border: 1px solid rgba(0,0,0,0.0);
-    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.0);
+    border-radius: 8px;
     background-color: #89DEEF;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: auto;
+    margin: 0 auto;
     text-align: justify;
-    width: 20%;
-    margin: 1em 4% 1em 0;
+    width: 30%;
+    margin: 10em 20% 5em 3;
     /* How do I add more space between the blrubs?*/
 }
 
@@ -98,27 +111,41 @@ nav {
     font-size: medium;
 }
 
-.footer {
+.adoptbio {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: stretch;
-}
-
-.footerlink {
 
 }
 
-.footerlink img {
+.footbox {
+    
 }
 
+.footbox img:hover {
+    opacity: 0.5;
+    background-color: blue;
+}
+    
 .container {
-    margin:30px;
+    margin: 30px;
+}
+
+.container-title{
+    font-size: x-large;
 }
 
 .italics {
     font-style: italic;
-    display: block;
     font-size: small;
+    margin: 10px;
+    border: 10px;
+}
+
+.hours-title {
+    margin: 30px;
+    font-size: x-large;
+}
+
+.hours {
+    margin: 10px;
+
 }
