@@ -75,23 +75,31 @@ nav {
 }
 
 .blurb {
-    flex-wrap: wrap;
     flex-direction: row;
-    height: 10px;
+    height: 20px;
     margin: 5px;
-    
+    align-items: flex-start;
+    flex-wrap: wrap;
+    display: flex;
 }
 
 .content {
-    border: 2px solid rgba(0,0,0,0.0);
+    /* border: 2px solid rgba(0,0,0,0.0);
     border-radius: 8px;
     background-color: #89DEEF;
-    justify-content: space-between;
     margin: 0 auto;
-    text-align: justify;
     width: 30%;
-    margin: 10em 20% 5em 3;
-    align-items: flex-start;
+    margin: 1px 10px 10px 1px;
+    min-width: 20px;
+    flex: 0 0 80px; */
+    align-self: flex-start;
+    border-radius: 15px;
+    padding: 2px 2px 2px;
+    margin-right: 5px;
+    margin-top: 5px;
+    flex-grow: 0;
+    min-width: 9%;
+    background-color: #A0DBED;
     /* How do I add more space between the blrubs?*/
 }
 
